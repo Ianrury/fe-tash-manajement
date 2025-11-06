@@ -1,16 +1,58 @@
-# React + Vite
+# Aplikasi Manajemen Tugas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplikasi web modern untuk mengelola tugas dan daftar to-do secara efisien. Aplikasi ini memungkinkan pengguna untuk membuat, memperbarui, menghapus, dan melacak tugas mereka secara terorganisir.
 
-Currently, two official plugins are available:
+## Teknologi yang Digunakan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React.js - Library frontend
+- Vite - Build tool dan lingkungan pengembangan
+- Tailwind CSS - Framework CSS utility-first
+- React Router - Untuk menangani navigasi
+- Axios - Untuk request API
+- Context API - Untuk manajemen state
 
-## React Compiler
+## Cara Menjalankan Aplikasi
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi frontend secara lokal:
 
-## Expanding the ESLint configuration
+1. Clone repository:
+```bash
+git clone https://github.com/Ianrury/fe-tash-manajement.git
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+2. Masuk ke direktori proyek:
+```bash
+cd fe-tash-manajement
+```
+
+3. Install dependensi:
+```bash
+npm install
+```
+
+4. Jalankan server development:
+```bash
+npm run dev
+```
+
+5. Buka browser dan kunjungi:
+```
+http://localhost:5173
+```
+
+## Akun untuk Testing
+
+Anda dapat menggunakan kredensial berikut untuk mencoba aplikasi:
+
+```
+Username: test
+Password: test123
+```
+
+## Fitur Aplikasi
+
+- Autentikasi pengguna (Login/Register)
+- Membuat, Membaca, Memperbarui, dan Menghapus tugas
+- Tampilan Dashboard untuk manajemen tugas
+- Desain responsif untuk mobile dan desktop
+- Notifikasi toast untuk umpan balik pengguna
